@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E348BE72BCE0963002C4A3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E348BE62BCE0963002C4A3A /* AppDelegate.swift */; };
+		4E348BE92BCE0963002C4A3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E348BE82BCE0963002C4A3A /* ContentView.swift */; };
+		4E348BEB2BCE0966002C4A3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E348BEA2BCE0966002C4A3A /* Assets.xcassets */; };
+		4E348BEE2BCE0966002C4A3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E348BED2BCE0966002C4A3A /* Preview Assets.xcassets */; };
+		4E348BF82BCE0966002C4A3A /* VirtualTryOnGlassesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E348BF72BCE0966002C4A3A /* VirtualTryOnGlassesTests.swift */; };
+		4E348C022BCE0966002C4A3A /* VirtualTryOnGlassesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E348C012BCE0966002C4A3A /* VirtualTryOnGlassesUITests.swift */; };
+		4E348C042BCE0966002C4A3A /* VirtualTryOnGlassesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E348C032BCE0966002C4A3A /* VirtualTryOnGlassesUITestsLaunchTests.swift */; };
+		4ED5706A2BCE499900ABEA10 /* Glasses.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 4ED570682BCE499900ABEA10 /* Glasses.rcproject */; };
+		4ED5706B2BCE499900ABEA10 /* PartyGlasses.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 4ED570692BCE499900ABEA10 /* PartyGlasses.rcproject */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E348BF42BCE0966002C4A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E348BDB2BCE0963002C4A3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E348BE22BCE0963002C4A3A;
+			remoteInfo = VirtualTryOnGlasses;
+		};
+		4E348BFE2BCE0966002C4A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E348BDB2BCE0963002C4A3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E348BE22BCE0963002C4A3A;
+			remoteInfo = VirtualTryOnGlasses;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E348BE32BCE0963002C4A3A /* VirtualTryOnGlasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualTryOnGlasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E348BE62BCE0963002C4A3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E348BE82BCE0963002C4A3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4E348BEA2BCE0966002C4A3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E348BED2BCE0966002C4A3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E348BF32BCE0966002C4A3A /* VirtualTryOnGlassesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualTryOnGlassesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E348BF72BCE0966002C4A3A /* VirtualTryOnGlassesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualTryOnGlassesTests.swift; sourceTree = "<group>"; };
+		4E348BFD2BCE0966002C4A3A /* VirtualTryOnGlassesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualTryOnGlassesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E348C012BCE0966002C4A3A /* VirtualTryOnGlassesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualTryOnGlassesUITests.swift; sourceTree = "<group>"; };
+		4E348C032BCE0966002C4A3A /* VirtualTryOnGlassesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualTryOnGlassesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4ED570682BCE499900ABEA10 /* Glasses.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Glasses.rcproject; sourceTree = "<group>"; };
+		4ED570692BCE499900ABEA10 /* PartyGlasses.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = PartyGlasses.rcproject; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E348BE02BCE0963002C4A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E348BF02BCE0966002C4A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E348BFA2BCE0966002C4A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E348BDA2BCE0963002C4A3A = {
+			isa = PBXGroup;
+			children = (
+				4E348BE52BCE0963002C4A3A /* VirtualTryOnGlasses */,
+				4E348BF62BCE0966002C4A3A /* VirtualTryOnGlassesTests */,
+				4E348C002BCE0966002C4A3A /* VirtualTryOnGlassesUITests */,
+				4E348BE42BCE0963002C4A3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E348BE42BCE0963002C4A3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E348BE32BCE0963002C4A3A /* VirtualTryOnGlasses.app */,
+				4E348BF32BCE0966002C4A3A /* VirtualTryOnGlassesTests.xctest */,
+				4E348BFD2BCE0966002C4A3A /* VirtualTryOnGlassesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E348BE52BCE0963002C4A3A /* VirtualTryOnGlasses */ = {
+			isa = PBXGroup;
+			children = (
+				4E348BE62BCE0963002C4A3A /* AppDelegate.swift */,
+				4E348BE82BCE0963002C4A3A /* ContentView.swift */,
+				4ED570672BCE498600ABEA10 /* 3dmodels */,
+				4E348BEA2BCE0966002C4A3A /* Assets.xcassets */,
+				4E348BEC2BCE0966002C4A3A /* Preview Content */,
+			);
+			path = VirtualTryOnGlasses;
+			sourceTree = "<group>";
+		};
+		4E348BEC2BCE0966002C4A3A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4E348BED2BCE0966002C4A3A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4E348BF62BCE0966002C4A3A /* VirtualTryOnGlassesTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E348BF72BCE0966002C4A3A /* VirtualTryOnGlassesTests.swift */,
+			);
+			path = VirtualTryOnGlassesTests;
+			sourceTree = "<group>";
+		};
+		4E348C002BCE0966002C4A3A /* VirtualTryOnGlassesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E348C012BCE0966002C4A3A /* VirtualTryOnGlassesUITests.swift */,
+				4E348C032BCE0966002C4A3A /* VirtualTryOnGlassesUITestsLaunchTests.swift */,
+			);
+			path = VirtualTryOnGlassesUITests;
+			sourceTree = "<group>";
+		};
+		4ED570672BCE498600ABEA10 /* 3dmodels */ = {
+			isa = PBXGroup;
+			children = (
+				4ED570682BCE499900ABEA10 /* Glasses.rcproject */,
+				4ED570692BCE499900ABEA10 /* PartyGlasses.rcproject */,
+			);
+			path = 3dmodels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E348BE22BCE0963002C4A3A /* VirtualTryOnGlasses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E348C072BCE0966002C4A3A /* Build configuration list for PBXNativeTarget "VirtualTryOnGlasses" */;
+			buildPhases = (
+				4E348BDF2BCE0963002C4A3A /* Sources */,
+				4E348BE02BCE0963002C4A3A /* Frameworks */,
+				4E348BE12BCE0963002C4A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualTryOnGlasses;
+			productName = VirtualTryOnGlasses;
+			productReference = 4E348BE32BCE0963002C4A3A /* VirtualTryOnGlasses.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E348BF22BCE0966002C4A3A /* VirtualTryOnGlassesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E348C0A2BCE0966002C4A3A /* Build configuration list for PBXNativeTarget "VirtualTryOnGlassesTests" */;
+			buildPhases = (
+				4E348BEF2BCE0966002C4A3A /* Sources */,
+				4E348BF02BCE0966002C4A3A /* Frameworks */,
+				4E348BF12BCE0966002C4A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E348BF52BCE0966002C4A3A /* PBXTargetDependency */,
+			);
+			name = VirtualTryOnGlassesTests;
+			productName = VirtualTryOnGlassesTests;
+			productReference = 4E348BF32BCE0966002C4A3A /* VirtualTryOnGlassesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E348BFC2BCE0966002C4A3A /* VirtualTryOnGlassesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E348C0D2BCE0966002C4A3A /* Build configuration list for PBXNativeTarget "VirtualTryOnGlassesUITests" */;
+			buildPhases = (
+				4E348BF92BCE0966002C4A3A /* Sources */,
+				4E348BFA2BCE0966002C4A3A /* Frameworks */,
+				4E348BFB2BCE0966002C4A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E348BFF2BCE0966002C4A3A /* PBXTargetDependency */,
+			);
+			name = VirtualTryOnGlassesUITests;
+			productName = VirtualTryOnGlassesUITests;
+			productReference = 4E348BFD2BCE0966002C4A3A /* VirtualTryOnGlassesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E348BDB2BCE0963002C4A3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					4E348BE22BCE0963002C4A3A = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					4E348BF22BCE0966002C4A3A = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 4E348BE22BCE0963002C4A3A;
+					};
+					4E348BFC2BCE0966002C4A3A = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 4E348BE22BCE0963002C4A3A;
+					};
+				};
+			};
+			buildConfigurationList = 4E348BDE2BCE0963002C4A3A /* Build configuration list for PBXProject "VirtualTryOnGlasses" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E348BDA2BCE0963002C4A3A;
+			productRefGroup = 4E348BE42BCE0963002C4A3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E348BE22BCE0963002C4A3A /* VirtualTryOnGlasses */,
+				4E348BF22BCE0966002C4A3A /* VirtualTryOnGlassesTests */,
+				4E348BFC2BCE0966002C4A3A /* VirtualTryOnGlassesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E348BE12BCE0963002C4A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E348BEE2BCE0966002C4A3A /* Preview Assets.xcassets in Resources */,
+				4E348BEB2BCE0966002C4A3A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E348BF12BCE0966002C4A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E348BFB2BCE0966002C4A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E348BDF2BCE0963002C4A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED5706A2BCE499900ABEA10 /* Glasses.rcproject in Sources */,
+				4E348BE92BCE0963002C4A3A /* ContentView.swift in Sources */,
+				4ED5706B2BCE499900ABEA10 /* PartyGlasses.rcproject in Sources */,
+				4E348BE72BCE0963002C4A3A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E348BEF2BCE0966002C4A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E348BF82BCE0966002C4A3A /* VirtualTryOnGlassesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E348BF92BCE0966002C4A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E348C042BCE0966002C4A3A /* VirtualTryOnGlassesUITestsLaunchTests.swift in Sources */,
+				4E348C022BCE0966002C4A3A /* VirtualTryOnGlassesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E348BF52BCE0966002C4A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E348BE22BCE0963002C4A3A /* VirtualTryOnGlasses */;
+			targetProxy = 4E348BF42BCE0966002C4A3A /* PBXContainerItemProxy */;
+		};
+		4E348BFF2BCE0966002C4A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E348BE22BCE0963002C4A3A /* VirtualTryOnGlasses */;
+			targetProxy = 4E348BFE2BCE0966002C4A3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4E348C052BCE0966002C4A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E348C062BCE0966002C4A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E348C082BCE0966002C4A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VirtualTryOnGlasses/Preview Content\"";
+				DEVELOPMENT_TEAM = ETM6Y43SU4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.VirtualTryOnGlasses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E348C092BCE0966002C4A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VirtualTryOnGlasses/Preview Content\"";
+				DEVELOPMENT_TEAM = ETM6Y43SU4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.VirtualTryOnGlasses;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E348C0B2BCE0966002C4A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ETM6Y43SU4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.VirtualTryOnGlassesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualTryOnGlasses.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VirtualTryOnGlasses";
+			};
+			name = Debug;
+		};
+		4E348C0C2BCE0966002C4A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ETM6Y43SU4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.VirtualTryOnGlassesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualTryOnGlasses.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VirtualTryOnGlasses";
+			};
+			name = Release;
+		};
+		4E348C0E2BCE0966002C4A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ETM6Y43SU4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.VirtualTryOnGlassesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtualTryOnGlasses;
+			};
+			name = Debug;
+		};
+		4E348C0F2BCE0966002C4A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ETM6Y43SU4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.VirtualTryOnGlassesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtualTryOnGlasses;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E348BDE2BCE0963002C4A3A /* Build configuration list for PBXProject "VirtualTryOnGlasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E348C052BCE0966002C4A3A /* Debug */,
+				4E348C062BCE0966002C4A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E348C072BCE0966002C4A3A /* Build configuration list for PBXNativeTarget "VirtualTryOnGlasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E348C082BCE0966002C4A3A /* Debug */,
+				4E348C092BCE0966002C4A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E348C0A2BCE0966002C4A3A /* Build configuration list for PBXNativeTarget "VirtualTryOnGlassesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E348C0B2BCE0966002C4A3A /* Debug */,
+				4E348C0C2BCE0966002C4A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E348C0D2BCE0966002C4A3A /* Build configuration list for PBXNativeTarget "VirtualTryOnGlassesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E348C0E2BCE0966002C4A3A /* Debug */,
+				4E348C0F2BCE0966002C4A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E348BDB2BCE0963002C4A3A /* Project object */;
+}

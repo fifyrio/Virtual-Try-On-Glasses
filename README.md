@@ -5,6 +5,10 @@ Use ARKit to try on glasses
 1. Download 3D Models from [sketchfab](https://sketchfab.com/feed)
 
 2. Install Reality Composer from XCode 14(`Xcode > Open Developer Tool > Reality Composer`)
+
+3. Create a new Reality Composer file
+
+
 Then Create a new Document: File > New and choose a Face anchor. It’s up to you if you want to uncheck Use template content — this will just add a “Hello World” thought bubble to your scene.
 
 Once the scene appears with the face anchor, drag your .usdz model file onto the window to add it to the scene. You might need to zoom out to see the model depending on the size. Select it and use the Green, Red & Blue position controls along with the Scale slider in the Transform Pane to move the model into place on the face anchor similar to below.
